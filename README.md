@@ -2,17 +2,17 @@
 
 This project was made by learning purposes, it uses plain c++ with no libraries whatsoever.
 ## Requirements
-* g++ compiler
-* gtest for running tests
+* g++
+* gtest
 
 ## Usage
 ```txt
 Usage: {executable} <command>
 where <command> is one of:
-            --help (display information)
+            --help  (display information)
             -d       Decode a file
             -e       Encode a file
-            --shift   (required) How much to shift
+            --shift  (required) How much to shift
             --path   (required) Path to file for processing
             --output (optional) filename to output decoded or encoded .txt
 ```
@@ -24,8 +24,6 @@ where <command> is one of:
 ```
 
 ## Compilation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
 mkdir build
