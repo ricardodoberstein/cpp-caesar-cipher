@@ -1,5 +1,5 @@
 #!/bin/bash
 cd test
-g++ -o testing *.cpp ../src/*.h ../src/*.cpp -L/usr/lib/ -lgtest -lgtest_main -pthread
-./testing
-rm ./testing
+cmake -S . -B build
+cmake --build build
+cd build && ctest

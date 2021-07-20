@@ -1,6 +1,11 @@
 #include <gtest/gtest.h>
 #include "../src/argumentparser.h"
 
+TEST(Test, Test)
+{
+  ASSERT_EQ(1, 1);
+}
+
 TEST(ArgumentParser, helpReturnsTrue)
 {
   char argv0[] = "test";
@@ -118,10 +123,4 @@ TEST(ArgumentParser, outputFileDefault)
 
   ASSERT_EQ(parser->getOutputFileName(), "output");
   delete parser;
-}
-
-int main(int argc, char **argv)
-{
-  testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
 }
