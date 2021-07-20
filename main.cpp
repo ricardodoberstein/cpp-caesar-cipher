@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include "cipher.h"
-#include "filereader.h"
-#include "filewriter.h"
-#include "argumentparser.h"
+#include "src/cipher.h"
+#include "src/filereader.h"
+#include "src/filewriter.h"
+#include "src/argumentparser.h"
 
 int main(int argc, char *argv[])
 {
