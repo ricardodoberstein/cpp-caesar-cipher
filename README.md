@@ -2,7 +2,7 @@
 
 This project was made by learning purposes, it uses plain c++ with no libraries whatsoever.
 ## Requirements
-* g++
+* CMake
 * gtest
 
 ## Usage
