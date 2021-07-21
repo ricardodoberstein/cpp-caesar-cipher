@@ -1,4 +1,4 @@
-#include "filereader.h"
+#include "file_reader.h"
 
 namespace dcp
 {
@@ -10,7 +10,7 @@ namespace dcp
   {
   }
 
-  std::vector<std::string> FileReader::readFile(std::string path)
+  std::vector<std::string> FileReader::read_file(std::string path)
   {
     std::ifstream file;
     file.open(path);

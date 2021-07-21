@@ -9,6 +9,6 @@ namespace dcp
   public:
     FileReader();
     ~FileReader();
-    std::vector<std::string> readFile(std::string path);
+    std::vector<std::string> read_file(std::string path);
   };
 }

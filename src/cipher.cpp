@@ -18,7 +18,7 @@ namespace dcp
     for (int i = 0; i < value.length(); i += 1)
     {
       int start = (int)value[i];
-      int target = ascii.getEncodeTarget(start, shift);
+      int target = ascii.get_encode_target(start, shift);
       value[i] = (char)target;
     }
 
@@ -31,7 +31,7 @@ namespace dcp
     for (int i = 0; i < value.length(); i += 1)
     {
       int start = (int)value[i];
-      int target = ascii.getDecodeTarget(start, shift);
+      int target = ascii.get_decode_target(start, shift);
       value[i] = (char)target;
     }
 

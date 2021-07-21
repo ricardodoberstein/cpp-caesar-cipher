@@ -10,7 +10,7 @@ namespace dcp
   {
   }
 
-  int ASCII::getEncodeTarget(int start, int shift)
+  int ASCII::get_encode_target(int start, int shift)
   {
     if (start == 32)
       return 32;
@@ -33,7 +33,7 @@ namespace dcp
     return start;
   }
 
-  int ASCII::getDecodeTarget(int start, int shift)
+  int ASCII::get_decode_target(int start, int shift)
   {
     if (start == 32)
       return 32;

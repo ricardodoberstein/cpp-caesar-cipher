@@ -1,4 +1,4 @@
-#include "filewriter.h"
+#include "file_writer.h"
 
 namespace dcp
 {
@@ -10,7 +10,7 @@ namespace dcp
   {
   }
 
-  void FileWriter::writeToFile(std::string path, std::vector<std::string> data)
+  void FileWriter::write_to_file(std::string path, std::vector<std::string> data)
   {
     std::ofstream file;
     file.open(path);

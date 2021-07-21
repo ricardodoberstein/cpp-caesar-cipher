@@ -7,7 +7,7 @@ namespace dcp
   public:
     ASCII();
     ~ASCII();
-    int getEncodeTarget(int start, int shift);
-    int getDecodeTarget(int start, int shift);
+    int get_encode_target(int start, int shift);
+    int get_decode_target(int start, int shift);
   };
 }

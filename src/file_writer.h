@@ -10,6 +10,6 @@ namespace dcp
     FileWriter();
     ~FileWriter();
 
-    void writeToFile(std::string path, std::vector<std::string> data);
+    void write_to_file(std::string path, std::vector<std::string> data);
   };
 }
